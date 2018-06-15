@@ -1,20 +1,20 @@
 {
-  "name": "node-ipmi",
-  "version": "0.0.1",
-  "readmeFilename": "README.md",
-  "description": "ipmitool commandline wrapper",
-  "main": "lib/node-ipmi.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "ipmi",
-    "node.js"
-  ],
-  "author": "<marky.@egeback.se> Marky Egebäck",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/egeback/node-ipmi"
-  }
+	"name": "node-ipmi",
+	"version": "0.0.2",
+	"readmeFilename": "README.md",
+	"description": "ipmitool commandline wrapper",
+	"main": "lib/node-ipmi.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"ipmi",
+		"node.js"
+	],
+	"author": "<marky.@egeback.se> Marky Egebäck",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/egeback/node-ipmi"
+	}
 }
