@@ -1,6 +1,7 @@
 # ipmitool.js
 
-A node.js wrapper of the command line IPMI utility, ipmitool, inspired by / stolen from node-ipmi.
+A node.js wrapper of the command line IPMI utility, ipmitool, inspired by / stolen from
+[node-ipmi](https://github.com/egeback/node-ipmi).
 
 Further documentation will be provided as the progress is made.
 
