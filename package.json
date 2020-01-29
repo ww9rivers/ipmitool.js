@@ -1,4 +1,4 @@
-{	"comment": "-*-: mode: Javascript; js-indent-level: 8; -*-",
+{	"comment": "-*- mode: Javascript; js-indent-level: 8; -*-",
 	"name": "node-ipmi",
 	"version": "0.0.2",
 	"readmeFilename": "README.md",

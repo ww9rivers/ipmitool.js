@@ -18,11 +18,16 @@ PLEASE NOTE: node-ipmi currently only supports sensors.
 ### Quick Example
 
 ```javascript
-var Connect = require('node-ipmi');
+const IPMI = require('node-ipmi');
+const sensors = require('node-ipmi/lib/models/sensors');
 
-var server = new Connect("hostname/ip", "username", "password");
-server.getSensors(function(err, sensors) {
+var	options = {
+	privilege: 'USER'
+};
+
+var server = new IPMI("hostname/ip", "username", "password", options);
+sensors.make(server).get((err, result) => {
   console.log(sensors.getFans());
   console.log(sensors.getTemperatures());
-};
+});
 ```
